@@ -14,9 +14,9 @@ const HomepageHeroGuest = () => {
         <div className='flex flex-col md:flex-row items-center mb-14 xl:mb-10 2xl:pb-12 2xl:pt-8 2xl:dark:bg-black mx-12 xl:mx-32 2xl:mx-64'>   
             <div className="w-full xl:w-1/2 py-8 sm:pt-20 2xl:py-20 flex flex-col justify-center items-start">
                 <h1 className="2xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-4xl font-bold text-gray-700 dark:text-gray-200 mb-8">
-                    <p> {t('HeroGuest.Title')} </p>
+                    <p>{/*  {t('HeroGuest.Title')}  */}Harmony is the golden key that unlocks the door to peace, tranquility and joy </p>
                 </h1>
-                <p className='w-2/3 mb-8 xl:mb-12 font-medium text-xl xl:text-2xl text-gray-500 dark:text-gray-300'> {t('HeroGuest.Subtitle')} </p>
+                {/* <p className='w-2/3 mb-8 xl:mb-12 font-medium text-xl xl:text-2xl text-gray-500 dark:text-gray-300'> {t('HeroGuest.Subtitle')} </p> */}
                 <Button href='/subscriptions' text={t('HeroGuest.Button')} color='blue' pX='5' pY='4' mX='0' mY='0'/>
                 <div className='mt-8 text-gray-600 flex items-center'> 
                     <a href='/' className=' mr-2 flex items-center'>

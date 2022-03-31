@@ -78,7 +78,7 @@ const Navbar = (props) => {
                             {dropdown && <DropdownMegamenu/>}
                         </li>
                         <li id='meditation' className='flex items-center'>
-                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/' > {t('Navbar.Meditation')} </a>     
+                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='https://harmony-g-solution-challenge.github.io/Meditation/' > {t('Navbar.Meditation')} </a>     
                         </li>
                         <li className='flex items-center'>
                             <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/'> {t('Navbar.Sleep')} </a>

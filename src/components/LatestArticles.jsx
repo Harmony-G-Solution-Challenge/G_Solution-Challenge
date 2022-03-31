@@ -38,7 +38,7 @@ const LatestArticles = () => {
                     </a>
 
 
-                    <a className='col-span-2 xl:col-span-1 transition duration-500 ease-in-out transform hover:scale-102' href="/articles">
+                    <a className='col-span-2 xl:col-span-1 transition duration-500 ease-in-out transform hover:scale-102' href="https://harmony-g-solution-challenge.github.io/Meditation/">
                         <div className="bg-walking-meditation bg-cover h-56 rounded-xl">
                             <div className="h-full flex flex-col justify-between items-start">
                                 <div className="bg-yellow-500 text-xs text-white px-2 py-1 mt-2 ml-2 rounded-md">
