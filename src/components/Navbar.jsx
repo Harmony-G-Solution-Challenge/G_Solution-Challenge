@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import headspaceLogo from '../images/headspace_dot.png';
-import Button from './Button';
 import DropdownMegamenu from './DropdownMegamenu';
 import useDarkMode from '../hook/useDarkMode.js';
 
@@ -75,17 +74,17 @@ const Navbar = (props) => {
                 <div >
                     <ul className=" ml-16 pr-8 lg:flex hidden text-gray-700 h-20">
                         <li id='articles' className='flex items-center' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='https://www.headspace.com/articles' > {t('Navbar.Articles')} </a>
+                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/' > {t('Navbar.Articles')} </a>
                             {dropdown && <DropdownMegamenu/>}
                         </li>
                         <li id='meditation' className='flex items-center'>
-                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='https://www.headspace.com/meditation' > {t('Navbar.Meditation')} </a>     
+                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/' > {t('Navbar.Meditation')} </a>     
                         </li>
                         <li className='flex items-center'>
-                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='https://www.headspace.com/sleep'> {t('Navbar.Sleep')} </a>
+                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/'> {t('Navbar.Sleep')} </a>
                         </li>
                         <li className='flex items-center'>
-                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='https://www.headspace.com/stress'> {t('Navbar.Stress')} </a>
+                            <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/'> {t('Navbar.Stress')} </a>
                         </li>
                     </ul>
                     
@@ -95,13 +94,11 @@ const Navbar = (props) => {
 
             <div className='flex items-center'>
                 <div className="pr-8 md:block hidden text-gray-700">
-                    <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='https://www.headspace.com/about-us'> {t('Navbar.About')} </a>
-                    <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='https://www.headspace.com/work'> {t('Navbar.Work')} </a>
-                    <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='https://help.headspace.com/hc/en-us'> {t('Navbar.Help')} </a>
-                    <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='https://www.headspace.com/login'> {t('Navbar.Login')} </a>
+                    <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/about-us'> {t('Navbar.About')} </a>
+                    <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/work'> {t('Navbar.Work')} </a>
+                    <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/en-us'> {t('Navbar.Help')} </a>
+                    <a className="p-4 text-black dark:text-white hover:text-orange dark:hover:text-orange" href='/login'> {t('Navbar.Login')} </a>
                 </div>
-
-                <Button href='https://www.headspace.com/subscriptions' text={t('Navbar.Button')} color='blue' hiddenOnSmallScreen='true' pX='4' pY='3' mX='0' mY='0' />
             </div>
 
             
