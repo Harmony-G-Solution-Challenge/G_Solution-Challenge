@@ -19,7 +19,7 @@ const Footer = () => {
         <div className='flex flex-col 2xl:flex-row justify-between items-center h-full bg-gray-600 dark:bg-gray-900 text-gray-300 font-medium text-xs py-6 px-10 xl:px-16 2xl:px-56'>
 
             <div className='items-baseline flex-wrap flex flex-row mb-4 2xl:mb-0 justify-center '>
-                <p className='px-4 py-2'>{t('Footer.List.Headspace')}</p>
+                 <p className='px-4 py-2'>{/*{t('Footer.List.Headspace')} */}2022 Harmony.dev</p>
                 <Link className="px-4 py-2  text-gray-300 hover:text-gray-100" to='/'>{t('Footer.List.Terms')}</Link>
                 <Link className="px-4 py-2 text-gray-300 hover:text-gray-100" to='/'>{t('Footer.List.PrivacyPolicy')}</Link>
                 <Link className="px-4 py-2 text-gray-300 hover:text-gray-100" to='/'>{t('Footer.List.CookiePolicy')}</Link>

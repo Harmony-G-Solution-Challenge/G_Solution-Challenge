@@ -9,7 +9,7 @@ const Home = () => {
         <div className='dark:bg-black'>
             <HomepageHeroGuest />
             <LatestArticles />
-            <MeditationForX />
+            {/* <MeditationForX /> */}
         </div>
     )
 }
